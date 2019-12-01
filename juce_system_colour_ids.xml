@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<klasses>
+  <klass name="">
+    <colour_id name="backgroundColourId" id="0x1000700" comment="The colour to fill the menu's background with."/>
+    <colour_id name="headerTextColourId" id="0x1000601" comment="The colour for section header item text (see theaddSectionHeader() method)."/>
+    <colour_id name="highlightColourId" id="0x1000540" comment="The colour to use to fill a highlighted row of the list."/>
+    <colour_id name="highlightedBackgroundColourId" id="0x1000900" comment="The colour to fill the background of the currentlyhighlighted menu item."/>
+    <colour_id name="textColourId" id="0x1000541" comment="The colour for the text."/>
+    <colour_id name="textColourId" id="0x1000600" comment="The colour for normal menu item text, (unless thecolour is specified when the item is added)."/>
+  </klass>
+  <klass name="AlertWindow::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1001800" comment="The background colour for the window."/>
+    <colour_id name="textColourId" id="0x1001810" comment="The colour for the text."/>
+  </klass>
+  <klass name="BooleanPropertyComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x100e801" comment="The colour to fill the background of the button area."/>
+  </klass>
+  <klass name="BubbleComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1000af0" comment="A background colour to fill the bubble with."/>
+  </klass>
+  <klass name="CodeEditorComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1004500" comment="A colour to use to fill the editor's background."/>
+    <colour_id name="defaultTextColourId" id="0x1004503" comment="The colour to use for text when no syntax colouring is enabled."/>
+    <colour_id name="highlightColourId" id="0x1004502" comment="The colour to use for the highlighted background under selected text."/>
+    <colour_id name="lineNumberBackgroundId" id="0x1004504" comment="The colour to use for filling the background of the line-number gutter."/>
+  </klass>
+  <klass name="ColourSelector::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1007000" comment="the colour used to fill the component's background."/>
+  </klass>
+  <klass name="ComboBox::ColourIds">
+    <colour_id name="arrowColourId" id="0x1000e00" comment="The colour for the arrow shape that pops up the menu"/>
+    <colour_id name="backgroundColourId" id="0x1000b00" comment="The background colour to fill the box with."/>
+    <colour_id name="buttonColourId" id="0x1000d00" comment="The base colour for the button (a LookAndFeel class will probably use variations on this)."/>
+    <colour_id name="outlineColourId" id="0x1000c00" comment="The colour for an outline around the box."/>
+    <colour_id name="textColourId" id="0x1000a00" comment="The colour for the text in the box."/>
+  </klass>
+  <klass name="DrawableButton::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1004011" comment="The colour used to fill the button's background (whenthe button is toggled 'off'). Note that if you use the"/>
+    <colour_id name="backgroundOnColourId" id="0x1004012" comment="The colour used to fill the button's background (whenthe button is toggled 'on'). Note that if you use the"/>
+    <colour_id name="textColourId" id="0x1004010" comment="The colour to use for the button's text label."/>
+    <colour_id name="textColourOnId" id="0x1004013" comment="The colour to use for the button's text when the button's toggle state is &quot;on&quot;."/>
+  </klass>
+  <klass name="FileBrowserComponent::ColourIds">
+    <colour_id name="currentPathBoxArrowColourId" id="0x1000642" comment="The colour to use to draw the arrow of the current path ComboBox."/>
+    <colour_id name="currentPathBoxBackgroundColourId" id="0x1000640" comment="The colour to use to fill the background of the current path ComboBox."/>
+    <colour_id name="currentPathBoxTextColourId" id="0x1000641" comment="The colour to use for the text of the current path ComboBox."/>
+    <colour_id name="filenameBoxBackgroundColourId" id="0x1000643" comment="The colour to use to fill the background of the filename TextEditor."/>
+  </klass>
+  <klass name="GroupComponent::ColourIds">
+    <colour_id name="outlineColourId" id="0x1005400" comment="The colour to use for drawing the line around the edge."/>
+  </klass>
+  <klass name="KeyMappingEditorComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x100ad00" comment="The background colour to fill the editor background."/>
+  </klass>
+  <klass name="Label::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1000280" comment="The background colour to fill the label with."/>
+    <colour_id name="backgroundWhenEditingColourId" id="0x1000283" comment="The background colour when the label is being edited."/>
+    <colour_id name="outlineColourId" id="0x1000282" comment="An optional colour to use to draw a border around the label.Leave this transparent to not have an outline."/>
+    <colour_id name="textColourId" id="0x1000281" comment="The colour for the text."/>
+    <colour_id name="textWhenEditingColourId" id="0x1000284" comment="The colour for the text when the label is being edited."/>
+  </klass>
+  <klass name="LassoComponent::ColourIds">
+    <colour_id name="lassoFillColourId" id="0x1000440" comment="The colour to fill the lasso rectangle with."/>
+  </klass>
+  <klass name="ListBox::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1002800" comment="The background colour to fill the list with.Make this transparent if you don't want the background to be filled."/>
+    <colour_id name="outlineColourId" id="0x1002810" comment="An optional colour to use to draw a border around the list.Make this transparent to not have an outline."/>
+  </klass>
+  <klass name="MidiKeyboardComponent::ColourIds">
+    <colour_id name="blackNoteColourId" id="0x1005001" comment=""/>
+    <colour_id name="keyDownOverlayColourId" id="0x1005004" comment="This colour will be overlaid on the normal note colour."/>
+    <colour_id name="keySeparatorLineColourId" id="0x1005002" comment=""/>
+    <colour_id name="mouseOverKeyOverlayColourId" id="0x1005003" comment="This colour will be overlaid on the normal note colour."/>
+    <colour_id name="textLabelColourId" id="0x1005005" comment=""/>
+    <colour_id name="upDownButtonArrowColourId" id="0x1005007" comment=""/>
+    <colour_id name="upDownButtonBackgroundColourId" id="0x1005006" comment=""/>
+    <colour_id name="whiteNoteColourId" id="0x1005000" comment=""/>
+  </klass>
+  <klass name="ProgressBar::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1001900" comment="The background colour, behind the bar."/>
+  </klass>
+  <klass name="PropertyComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1008300" comment="The background colour to fill the component with."/>
+  </klass>
+  <klass name="ScrollBar::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1000300" comment="The background colour of the scrollbar."/>
+    <colour_id name="thumbColourId" id="0x1000400" comment="A base colour to use for the thumb. The look and feel will probably use variations on this colour."/>
+  </klass>
+  <klass name="Slider::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1001200" comment="A colour to use to fill the slider's background."/>
+    <colour_id name="rotarySliderFillColourId" id="0x1001311" comment="For rotary sliders, this colour fills the outer curve."/>
+    <colour_id name="rotarySliderOutlineColourId" id="0x1001312" comment="For rotary sliders, this colour is used to draw the outer curve's outline."/>
+    <colour_id name="textBoxBackgroundColourId" id="0x1001500" comment="The background colour for the text-editor box."/>
+    <colour_id name="textBoxHighlightColourId" id="0x1001600" comment="The text highlight colour for the text-editor box."/>
+    <colour_id name="textBoxTextColourId" id="0x1001400" comment="The colour for the text in the text-editor box used for editing the value."/>
+    <colour_id name="thumbColourId" id="0x1001300" comment="The colour to draw the thumb with. It's up to the lookand feel class how this is used."/>
+    <colour_id name="trackColourId" id="0x1001310" comment="The colour to draw the groove that the thumb moves along."/>
+  </klass>
+  <klass name="TabbedButtonBar::ColourIds">
+    <colour_id name="frontOutlineColourId" id="0x1005814" comment="The colour to use to draw an outline around the currently-selected tab."/>
+    <colour_id name="tabOutlineColourId" id="0x1005812" comment="The colour to use to draw an outline around the tabs."/>
+    <colour_id name="tabTextColourId" id="0x1005813" comment="The colour to use to draw the tab names. If this isn't specified,the look and feel will choose an appropriate colour."/>
+  </klass>
+  <klass name="TabbedComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1005800" comment="The colour to fill the background behind the tabs."/>
+  </klass>
+  <klass name="TableHeaderComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1003810" comment="The colour of the table header background.It's up to the LookAndFeel how this is used."/>
+    <colour_id name="outlineColourId" id="0x1003820" comment="The colour of the table header's outline."/>
+    <colour_id name="textColourId" id="0x1003800" comment="The colour for the text in the header."/>
+  </klass>
+  <klass name="TextButton::ColourIds">
+    <colour_id name="buttonColourId" id="0x1000100" comment="The colour used to fill the button shape (when the button is toggled'off'). The look-and-feel class might re-interpret this to addeffects, etc."/>
+    <colour_id name="buttonOnColourId" id="0x1000101" comment="The colour used to fill the button shape (when the button is toggled'on'). The look-and-feel class might re-interpret this to addeffects, etc."/>
+    <colour_id name="textColourOffId" id="0x1000102" comment="The colour to use for the button's text when the button's toggle state is &quot;off&quot;."/>
+  </klass>
+  <klass name="TextEditor::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1000200" comment="The colour to use for the text component's background - this can betransparent if necessary."/>
+    <colour_id name="focusedOutlineColourId" id="0x1000206" comment="If this is non-transparent, it will be used to draw a box aroundthe edge of the component when it has focus."/>
+    <colour_id name="highlightColourId" id="0x1000202" comment="The colour with which to fill the background of highlighted sections ofthe text - this can be transparent if you don't want to show anyhighlighting."/>
+    <colour_id name="highlightedTextColourId" id="0x1000203" comment="The colour with which to draw the text in highlighted sections."/>
+    <colour_id name="outlineColourId" id="0x1000205" comment="If this is non-transparent, it will be used to draw a box aroundthe edge of the component."/>
+    <colour_id name="textColourId" id="0x1000201" comment="The colour that will be used when text is added to the editor. Notethat because the editor can contain multiple colours, calling thismethod won't change the colour of existing text - to do that, usethe applyColourToAllText() method"/>
+  </klass>
+  <klass name="TextPropertyComponent::ColourIds">
+    <colour_id name="backgroundColourId" id="0x100e401" comment="The colour to fill the background of the text area."/>
+    <colour_id name="textColourId" id="0x100e402" comment="The colour to use for the editable text."/>
+  </klass>
+  <klass name="ToggleButton::ColourIds">
+    <colour_id name="textColourId" id="0x1006501" comment="The colour to use for the button's text."/>
+    <colour_id name="tickColourId" id="0x1006502" comment="The colour to use for the tick mark."/>
+  </klass>
+  <klass name="Toolbar::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1003200" comment="A colour to use to fill the toolbar's background. Formore control over this, override LookAndFeel::paintToolbarBackground()."/>
+    <colour_id name="buttonMouseDownBackgroundColourId" id="0x1003230" comment="A colour used to paint the background of buttons when the mouse isheld down on them."/>
+    <colour_id name="buttonMouseOverBackgroundColourId" id="0x1003220" comment="A colour used to paint the background of buttons when the mouse isover them."/>
+    <colour_id name="labelTextColourId" id="0x1003240" comment="A colour to use for drawing the text under buttonswhen the style is set to iconsWithText or textOnly."/>
+    <colour_id name="separatorColourId" id="0x1003210" comment="A colour to use to draw the separator lines."/>
+  </klass>
+  <klass name="TooltipWindow::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1001b00" comment="The colour to fill the background with."/>
+    <colour_id name="textColourId" id="0x1001c00" comment="The colour to use for the text."/>
+  </klass>
+  <klass name="TreeView::ColourIds">
+    <colour_id name="backgroundColourId" id="0x1000500" comment="A background colour to fill the component with."/>
+    <colour_id name="dragAndDropIndicatorColourId" id="0x1000502" comment="The colour to use for the drag-and-drop target position indicator."/>
+    <colour_id name="linesColourId" id="0x1000501" comment="The colour to draw the lines with."/>
+    <colour_id name="oddItemsColourId" id="0x1000504" comment="The colour to use to fill the backround of the odd numbered items."/>
+    <colour_id name="selectedItemBackgroundColourId" id="0x1000503" comment="The colour to use to fill the background of any selected items."/>
+  </klass>
+</klasses>
